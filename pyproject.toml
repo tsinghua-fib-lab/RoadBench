@@ -1,0 +1,27 @@
+[project]
+name = "roadnetbenchmark"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.12.14",
+    "shapely>=2.1.1",
+    "pyproj>=3.6.0",
+    "pillow>=11.3.0",
+    "python-dotenv>=1.0.0",
+    "openai>=1.97.0",
+    "pydantic>=2.11.7",
+    "json-repair>=0.49.0",
+    "pyyaml>=6.0.2",
+    "numpy>=2.3.1",
+    "scikit-learn>=1.7.1",
+    "similaritymeasures>=1.3.0",
+    "scipy>=1.15.1",
+    "transbigdata>=0.5.3",
+    "networkx>=3.5",
+    "openpyxl>=3.1.5",
+]
+
+[dependency-groups]
+dev = ["ipykernel>=6.30.1"]
